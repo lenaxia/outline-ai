@@ -1,0 +1,21 @@
+{
+  "summary": "This document establishes comprehensive standards for designing REST APIs, covering resource naming conventions, HTTP methods, authentication patterns, versioning strategies, and error handling. It provides detailed guidance on implementing pagination, rate limiting, and webhooks, along with best practices for testing, documentation, security, and performance optimization.",
+  "key_topics": [
+    "REST API design principles",
+    "Resource naming and URL conventions",
+    "HTTP methods and status codes",
+    "Authentication (Bearer tokens and API keys)",
+    "Versioning strategies",
+    "Pagination (offset and cursor-based)",
+    "Rate limiting and throttling",
+    "Error handling and responses",
+    "API documentation with OpenAPI/Swagger",
+    "Testing and contract validation",
+    "Security (HTTPS, CORS, input validation)",
+    "Performance optimization (caching, compression, batching)",
+    "Deprecation and migration processes"
+  ],
+  "confidence": 0.88,
+  "word_count": 2847,
+  "estimated_reading_time": "12 minutes"
+}

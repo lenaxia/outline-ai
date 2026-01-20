@@ -1,0 +1,100 @@
+[
+  {
+    "id": "col-engineering-001",
+    "name": "Engineering",
+    "description": "Technical documentation, architecture designs, API specifications, database schemas, infrastructure guides, and development best practices. Home for all engineering-related knowledge including code patterns, deployment procedures, and system designs.",
+    "createdAt": "2023-10-01T08:00:00Z",
+    "updatedAt": "2024-01-15T14:30:00Z"
+  },
+  {
+    "id": "col-product-001",
+    "name": "Product",
+    "description": "Product requirements documents, feature specifications, roadmaps, user research findings, design mockups, and product strategy. Contains product development lifecycle documentation from ideation to launch.",
+    "createdAt": "2023-10-01T08:15:00Z",
+    "updatedAt": "2024-01-18T11:20:00Z"
+  },
+  {
+    "id": "col-marketing-001",
+    "name": "Marketing",
+    "description": "Marketing campaigns, go-to-market strategies, brand guidelines, content calendars, promotional materials, social media plans, and customer-facing messaging. All marketing-related collateral and planning documents.",
+    "createdAt": "2023-10-01T08:30:00Z",
+    "updatedAt": "2024-01-19T16:45:00Z"
+  },
+  {
+    "id": "col-customer-success-001",
+    "name": "Customer Success",
+    "description": "Customer onboarding guides, support documentation, troubleshooting playbooks, help articles, training materials, and customer communication templates. Resources for ensuring customer satisfaction and success.",
+    "createdAt": "2023-10-01T09:00:00Z",
+    "updatedAt": "2024-01-17T13:10:00Z"
+  },
+  {
+    "id": "col-sales-001",
+    "name": "Sales",
+    "description": "Sales playbooks, pitch decks, proposal templates, pricing guides, competitive analysis, customer case studies, and deal workflows. Sales enablement materials and best practices for closing deals.",
+    "createdAt": "2023-10-01T09:15:00Z",
+    "updatedAt": "2024-01-16T10:00:00Z"
+  },
+  {
+    "id": "col-operations-001",
+    "name": "Operations",
+    "description": "Internal processes, operational procedures, compliance documentation, vendor management, budget planning, team policies, and administrative workflows. Day-to-day operational knowledge and procedures.",
+    "createdAt": "2023-10-01T09:30:00Z",
+    "updatedAt": "2024-01-15T09:45:00Z"
+  },
+  {
+    "id": "col-design-001",
+    "name": "Design",
+    "description": "Design systems, UI/UX guidelines, component libraries, brand assets, design principles, user research, wireframes, and prototypes. Visual and interaction design documentation.",
+    "createdAt": "2023-10-15T10:00:00Z",
+    "updatedAt": "2024-01-18T15:30:00Z"
+  },
+  {
+    "id": "col-people-001",
+    "name": "People & Culture",
+    "description": "HR policies, employee handbook, onboarding procedures, performance review templates, company values, team building activities, and benefits information. Human resources and culture documentation.",
+    "createdAt": "2023-10-15T10:30:00Z",
+    "updatedAt": "2024-01-12T11:20:00Z"
+  },
+  {
+    "id": "col-finance-001",
+    "name": "Finance",
+    "description": "Financial planning, budgets, expense policies, invoice templates, procurement procedures, financial reports, and audit documentation. Finance and accounting resources.",
+    "createdAt": "2023-10-20T08:00:00Z",
+    "updatedAt": "2024-01-10T14:15:00Z"
+  },
+  {
+    "id": "col-legal-001",
+    "name": "Legal",
+    "description": "Legal contracts, terms of service, privacy policies, compliance requirements, intellectual property documentation, and legal guidelines. Legal department resources and templates.",
+    "createdAt": "2023-10-20T08:30:00Z",
+    "updatedAt": "2024-01-08T16:00:00Z"
+  },
+  {
+    "id": "col-security-001",
+    "name": "Security",
+    "description": "Security policies, incident response procedures, vulnerability reports, penetration testing results, security audit findings, and compliance certifications. Information security documentation.",
+    "createdAt": "2023-11-01T09:00:00Z",
+    "updatedAt": "2024-01-19T10:30:00Z"
+  },
+  {
+    "id": "col-data-001",
+    "name": "Data & Analytics",
+    "description": "Data models, analytics dashboards, reporting guidelines, data pipeline documentation, metrics definitions, and business intelligence resources. Data team documentation and best practices.",
+    "createdAt": "2023-11-01T09:30:00Z",
+    "updatedAt": "2024-01-17T12:45:00Z"
+  },
+  {
+    "id": "col-inbox-001",
+    "name": "Inbox",
+    "description": "Temporary holding area for new documents that haven't been organized yet. Documents here should be reviewed and moved to appropriate collections.",
+    "createdAt": "2023-10-01T08:00:00Z",
+    "updatedAt": "2024-01-20T15:00:00Z"
+  },
+  {
+    "id": "col-archive-001",
+    "name": "Archive",
+    "description": "Deprecated and historical documents no longer actively used but kept for reference. Old project documentation, outdated processes, and legacy materials.",
+    "createdAt": "2023-10-01T08:00:00Z",
+    "updatedAt": "2024-01-05T09:00:00Z"
+  }
+]

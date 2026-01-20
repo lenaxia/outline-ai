@@ -1,0 +1,33 @@
+{
+  "answer": "Our API uses a **tiered rate limiting system** based on subscription level:\n\n**Rate Limits by Tier:**\n- **Free tier**: 100 requests/hour, 1,000 requests/day, with 10 requests/min burst limit\n- **Pro tier**: 1,000 requests/hour, 50,000 requests/day, with 100 requests/min burst limit  \n- **Enterprise tier**: 10,000 requests/hour, 500,000 requests/day, with 1,000 requests/min burst limit\n\n**Implementation Details:**\n- We use a **token bucket algorithm** for rate limiting\n- Rate limit state is tracked in Redis with per-user buckets\n- Each request consumes one token, tokens refill at a configured rate\n- Burst capacity allows temporary traffic spikes within limits\n\n**For API Consumers:**\nAll API responses include rate limit headers:\n```\nX-RateLimit-Limit: 1000\nX-RateLimit-Remaining: 987\nX-RateLimit-Reset: 1642521600\n```\n\nWhen rate limited (HTTP 429), implement exponential backoff and respect the `Retry-After` header. Critical integrations can be whitelisted to bypass standard limits.\n\nFor more details, see:\n- [API Authentication & Rate Limiting](outline://doc/doc-tech-api-design-001) - Full technical implementation\n- [API Design Guidelines](outline://doc/doc-with-commands-001) - Best practices for handling rate limits",
+  "confidence": 0.92,
+  "sources": [
+    {
+      "document_id": "doc-tech-api-design-001",
+      "title": "API Authentication & Rate Limiting",
+      "url": "outline://doc/doc-tech-api-design-001",
+      "excerpt": "We implement tiered rate limiting based on subscription level: Free (100 req/hour), Pro (1,000 req/hour), Enterprise (10,000 req/hour). Token bucket algorithm with Redis-based tracking...",
+      "relevance": 0.98
+    },
+    {
+      "document_id": "doc-with-commands-001",
+      "title": "API Design Guidelines - DRAFT",
+      "url": "outline://doc/doc-with-commands-001",
+      "excerpt": "Implement rate limits to prevent abuse. Tiered limits: Anonymous (10 req/min), Authenticated (100 req/min), Premium (1000 req/min). Return X-RateLimit headers...",
+      "relevance": 0.85
+    },
+    {
+      "document_id": "doc-tech-monitoring-001",
+      "title": "API Monitoring and Observability",
+      "url": "outline://doc/doc-tech-monitoring-001",
+      "excerpt": "Monitor rate limit hits per user and 429 response rates. Set up alerts when sustained 429 responses exceed 5% of requests...",
+      "relevance": 0.72
+    }
+  ],
+  "context_used": 3,
+  "tokens_used": {
+    "prompt": 2847,
+    "completion": 342,
+    "total": 3189
+  }
+}

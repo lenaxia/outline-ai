@@ -1,0 +1,29 @@
+{
+  "collection_id": "col-engineering-001",
+  "confidence": 0.55,
+  "reasoning": "This document about Mobile App API Documentation is ambiguous. It contains technical API endpoint specifications, authentication flows, and code examples (suggesting Engineering), but it's framed from a mobile app perspective with user-facing features, SDK examples for iOS/Android, and focus on mobile user experience (suggesting Product). The document serves both as API implementation reference for backend engineers and as integration guide for mobile product development. Without additional context about the primary audience or intent, classification confidence is low.",
+  "search_terms": [
+    "mobile app",
+    "API",
+    "authentication",
+    "iOS",
+    "Android",
+    "OAuth",
+    "sync",
+    "push notifications",
+    "SDK",
+    "endpoints"
+  ],
+  "alternatives": [
+    {
+      "collection_id": "col-product-001",
+      "confidence": 0.42,
+      "reasoning": "Could fit in Product collection if the primary purpose is documenting mobile app features and user-facing functionality. The SDK examples and mobile-specific concerns (offline support, push notifications) suggest this could be product documentation for the mobile app team."
+    },
+    {
+      "collection_id": "col-customer-success-001",
+      "confidence": 0.15,
+      "reasoning": "Unlikely but possible if this is intended as integration documentation for customers building on top of the mobile API. However, the technical depth suggests it's more internal than customer-facing."
+    }
+  ]
+}

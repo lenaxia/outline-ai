@@ -1,0 +1,20 @@
+{
+  "collection_id": "col-engineering-001",
+  "confidence": 0.95,
+  "reasoning": "This document contains highly technical content about API authentication, rate limiting implementation, token bucket algorithms, and Redis-based tracking. The code examples in Python and references to HTTP status codes, Bearer tokens, and database patterns clearly indicate this is engineering documentation. The level of technical detail and implementation specifics make this an unambiguous fit for the Engineering collection.",
+  "search_terms": [
+    "API",
+    "authentication",
+    "rate limiting",
+    "bearer token",
+    "token bucket",
+    "Redis",
+    "HTTP status codes",
+    "REST API",
+    "security",
+    "throttling",
+    "backoff",
+    "monitoring"
+  ],
+  "alternatives": []
+}
